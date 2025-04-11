@@ -1,0 +1,11 @@
+apiVersion: noobaa.io/v1alpha1
+kind: BucketClass
+metadata:
+  name: multi-namespace-bc
+spec:
+  namespacePolicy:
+    type: Multi
+    multi:
+      readResources:
+      - gcs-namespace-bs
+      writeResource: s3-namespace-bs

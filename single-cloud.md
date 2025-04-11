@@ -3,6 +3,7 @@
 https://github.com/noobaa/noobaa-operator/releases/tag/v5.18.1
 
 ### Install to Kubernetes
+
 ```bash
 noobaa install
 ```
@@ -29,11 +30,10 @@ s3 ls
 ```
 
 ### Create a new AWS S3 `BackingStores`
+
 ```bash
 noobaa backingstore create aws-s3 aws-bs --region=us-east-1 --secret-name aws-s3-secret --target-bucket noobaa
-
 noobaa bucketclass create placement-bucketclass aws-bc --backingstores=aws-bs
-
 noobaa obc create aws-claim --bucketclass=aws-bc
 
 s3 ls

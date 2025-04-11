@@ -1,0 +1,11 @@
+apiVersion: noobaa.io/v1alpha1
+kind: NamespaceStore
+metadata:
+  name: gcs-namespace-bs
+spec:
+  googleCloudStorage:
+    secret:
+      name: gcs-secret
+      namespace: default
+    targetBucket: namespace-noobaa
+  type: google-cloud-storage
