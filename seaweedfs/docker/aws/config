@@ -1,0 +1,5 @@
+[default]
+region = us-east-1
+s3 =
+    payload_signing_enabled = true
+    signature_version = s3v4

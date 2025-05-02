@@ -6,4 +6,4 @@ spec:
   namespacePolicy:
     type: Single
     single:
-      resource: namespace-bs
+      resource: s3-namespace-bs

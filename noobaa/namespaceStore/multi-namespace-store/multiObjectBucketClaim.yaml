@@ -4,6 +4,6 @@ metadata:
   name: multi-namespace-obc
 spec:
   generateBucketName: anisur
-  storageClassName: default.noobaa.io
+  storageClassName: noobaa.noobaa.io
   additionalConfig:
     bucketclass: multi-namespace-bc

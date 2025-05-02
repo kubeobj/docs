@@ -7,6 +7,6 @@ spec:
     region: us-east-1
     secret:
       name: aws-s3-secret
-      namespace: default
+      namespace: noobaa
     targetBucket: namespace-noobaa
   type: aws-s3
