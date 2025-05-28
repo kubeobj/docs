@@ -1,0 +1,14 @@
+apiVersion: noobaa.io/v1alpha1
+kind: BackingStore
+metadata:
+  name: sample-backing-store
+  namespace: noobaa
+spec:
+  pvPool:
+    numVolumes: 2
+    resources:
+      requests:
+        storage: 16Gi
+    secret: {}
+    storageClass: local-path
+  type: pv-pool

@@ -1,0 +1,10 @@
+apiVersion: noobaa.io/v1alpha1
+kind: BucketClass
+metadata:
+  name: single-namespace-bc
+spec:
+  placementPolicy:
+    tiers:
+      - backingStores:
+          - sample-backing-store
+        placement: Mirror
