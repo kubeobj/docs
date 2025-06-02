@@ -1,7 +1,7 @@
 apiVersion: noobaa.io/v1alpha1
 kind: BucketClass
 metadata:
-  name: single-namespace-bc
+  name: sample-bucket-class
 spec:
   placementPolicy:
     tiers:

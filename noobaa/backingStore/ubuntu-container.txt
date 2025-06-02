@@ -1,0 +1,24 @@
+kubectl run ubuntu --rm --tty -i --restart='Never' \
+              --image ubuntu:latest --command -- /bin/bash \
+              -c "exec /bin/bash" \
+              --user=root
+
+apt upgrade && apt update -y
+
+apt install curl unzip iputils-ping -y
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+./aws/install
+
+kubectl get secret noobaa-admin -n noobaa -o json | jq -r '.data.AWS_ACCESS_KEY_ID|@base64d'
+kubectl get secret noobaa-admin -n noobaa -o json | jq -r '.data.AWS_SECRET_ACCESS_KEY|@base64d'
+export NOOBAA_ACCESS_KEY=
+export NOOBAA_SECRET_KEY=
+alias s3='AWS_ACCESS_KEY_ID=$NOOBAA_ACCESS_KEY AWS_SECRET_ACCESS_KEY=$NOOBAA_SECRET_KEY aws --endpoint https://s3.noobaa.svc.cluster.local:443 --no-verify-ssl s3'
+export AWS_REQUEST_CHECKSUM_CALCULATION=when_required
+export AWS_RESPONSE_CHECKSUM_CALCULATION=when_required
+
+dd if=/dev/urandom of=500MB bs=1M count=500
+
+s3 cp 500MB s3://<bucket-name>/random/500MB

@@ -9,6 +9,11 @@ spec:
     resources:
       requests:
         storage: 16Gi
+        memory: 4Gi
+        cpu: 2000m
+      limits:
+        memory: 4Gi
+        cpu: 2000m
     secret: {}
-    storageClass: local-path
+    storageClass: longhorn
   type: pv-pool
