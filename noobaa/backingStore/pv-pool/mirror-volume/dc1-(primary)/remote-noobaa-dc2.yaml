@@ -1,0 +1,13 @@
+apiVersion: noobaa.io/v1alpha1
+kind: BackingStore
+metadata:
+  name: remote-noobaa-dc2
+  namespace: noobaa
+spec:
+  s3Compatible:
+    endpoint: https://10.2.0.176:443
+    secret:
+      name: aws-s3-secret
+      namespace: noobaa
+    targetBucket: first.bucket
+  type: s3-compatible

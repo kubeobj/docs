@@ -1,0 +1,41 @@
+apiVersion: noobaa.io/v1alpha1
+kind: BackingStore
+metadata:
+  name: mirror-backing-store-0
+  namespace: noobaa
+spec:
+  pvPool:
+    numVolumes: 1
+    resources:
+      requests:
+        storage: 16Gi
+        memory: 2Gi
+        cpu: 1000m
+      limits:
+        memory: 2Gi
+        cpu: 1000m
+    secret: {}
+    storageClass: longhorn
+  type: pv-pool
+
+---
+
+apiVersion: noobaa.io/v1alpha1
+kind: BackingStore
+metadata:
+  name: mirror-backing-store-1
+  namespace: noobaa
+spec:
+  pvPool:
+    numVolumes: 1
+    resources:
+      requests:
+        storage: 16Gi
+        memory: 2Gi
+        cpu: 1000m
+      limits:
+        memory: 2Gi
+        cpu: 1000m
+    secret: {}
+    storageClass: longhorn
+  type: pv-pool
