@@ -3,7 +3,7 @@ kind: ObjectBucketClaim
 metadata:
   name: mirror-obc
 spec:
-  generateBucketName: mirror
+  generateBucketName: mirror-bucket
   storageClassName: noobaa.noobaa.io
   additionalConfig:
     bucketclass: mirror-bucket-class

@@ -1,0 +1,20 @@
+apiVersion: v1
+data:
+  auth_token: ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmhZMk52ZFc1MFgybGtJam9pTmpnMVlUTmhOV1kxTVdGbE1tSXdNREprTUdabE16WTFJaXdpYzNsemRHVnRYMmxrSWpvaU5qZzFZVE5oTldZMU1XRmxNbUl3TURKa01HWmxNelUySWl3aWNtOXNaU0k2SW05d1pYSmhkRzl5SWl3aVlYVjBhRzl5YVhwbFpGOWllU0k2SW01dmIySmhZU0lzSW1saGRDSTZNVGMxTURjME16WTBOMzAuLTJMd2xrdVFYSlNmTDZQcGxnT1ZhMXg4SVVTY0hCZy1vX3VudXI5LUlZRQ==
+kind: Secret
+metadata:
+  creationTimestamp: "2025-06-24T05:40:48Z"
+  labels:
+    app: noobaa
+  name: noobaa-operator
+  namespace: noobaa
+  ownerReferences:
+  - apiVersion: noobaa.io/v1alpha1
+    blockOwnerDeletion: true
+    controller: true
+    kind: NooBaa
+    name: noobaa
+    uid: 714731a3-5f5c-46ca-be9b-1696709d5240
+  resourceVersion: "907"
+  uid: 551f8a52-acbd-4f0e-a808-d54c74f11ea5
+type: Opaque

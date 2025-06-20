@@ -46,6 +46,7 @@ kubectl apply -f ./yamls/noobaa-db.yaml
 kubectl apply -f ./yamls/noobaa-operator.yaml
 kubectl apply -f ./yamls/noobaa-server.yaml
 kubectl apply -f ./yamls/noobaa-endpoints.yaml
+kubectl apply -f ./yamls/aws-s3-secret.yaml
 ```
 
 

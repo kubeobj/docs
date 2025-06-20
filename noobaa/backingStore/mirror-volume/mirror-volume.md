@@ -17,7 +17,6 @@ export AWS_RESPONSE_CHECKSUM_CALCULATION=when_required
 s3 ls
 ```
 
-
 ###  Setup In DC1
 
 **BackingStore in DC1**
@@ -25,7 +24,6 @@ s3 ls
 ```bash
 kubectl apply -f ./dc2/local-pv-pool-dc2.yaml
 ```
-
 
 ### Main setup in DC1
 
@@ -49,9 +47,6 @@ kubectl create secret generic aws-s3-secret \
     --from-literal=AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY> -n noobaa
 
 ```
-
-
-
 
 ## Findings:
 - BackingStore CRD does not have nodeName field. So, it's not possible to create POD `node/region` wise.
