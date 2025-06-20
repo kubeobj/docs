@@ -1,0 +1,21 @@
+apiVersion: v1
+data:
+  active_root_key: a2V5LTE3NTAwNTM5MDczOTc0NzQ2ODM=
+  key-1750053907397474683: emJUUGVzUEhLTnNkRk5pWmx4cjhNWVZ4YkF0eHkwelQwUk02SWMyOUwwTT0=
+kind: Secret
+metadata:
+  creationTimestamp: "2025-06-16T08:56:09Z"
+  labels:
+    app: noobaa
+  name: noobaa-root-master-key-volume
+  namespace: noobaa
+  ownerReferences:
+  - apiVersion: noobaa.io/v1alpha1
+    blockOwnerDeletion: true
+    controller: true
+    kind: NooBaa
+    name: noobaa
+    uid: 6d336cb9-2f47-4a04-b93c-01a5da58ae23
+  resourceVersion: "9576"
+  uid: d5438f68-fbbb-4307-88c8-fc8bb743748d
+type: Opaque

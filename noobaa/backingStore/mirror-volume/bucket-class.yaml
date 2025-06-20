@@ -7,5 +7,5 @@ spec:
     tiers:
       - backingStores:
           - mirror-backing-store-0
-          - mirror-backing-store-1
+#          - mirror-backing-store-1
         placement: Mirror

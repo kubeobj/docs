@@ -1,0 +1,9 @@
+apiVersion: objectbucket.io/v1alpha1
+kind: ObjectBucketClaim
+metadata:
+  name: remoote-pv-obc-dc1
+spec:
+  generateBucketName: anisur-dc2
+  storageClassName: noobaa.noobaa.io
+  additionalConfig:
+    bucketclass: dr-mirror-bucket-class

@@ -52,3 +52,14 @@ This is a list that defines one or more tiers for data placement. Each tier incl
           - store1
         placement: Single
 ```
+
+
+## Backup/Restore 
+
+**For a single DataCenter and same cluster whole Noobba backup/restore:**
+- Working
+
+**For Different Clusster**
+- Not tested yet
+
+

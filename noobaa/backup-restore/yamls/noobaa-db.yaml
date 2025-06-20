@@ -1,0 +1,21 @@
+apiVersion: v1
+data:
+  password: SDZKOWJnQ1pGVVFtT3c9PQ==
+  user: bm9vYmFh
+kind: Secret
+metadata:
+  creationTimestamp: "2025-06-16T08:56:09Z"
+  labels:
+    app: noobaa
+  name: noobaa-db
+  namespace: noobaa
+  ownerReferences:
+  - apiVersion: noobaa.io/v1alpha1
+    blockOwnerDeletion: true
+    controller: true
+    kind: NooBaa
+    name: noobaa
+    uid: 6d336cb9-2f47-4a04-b93c-01a5da58ae23
+  resourceVersion: "9575"
+  uid: fb4cd080-a4d3-47fa-9fe1-9e1d941c4ec5
+type: Opaque
