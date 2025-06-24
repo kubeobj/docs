@@ -1,13 +1,15 @@
 apiVersion: noobaa.io/v1alpha1
 kind: BackingStore
 metadata:
-  name: remote-noobaa-dc2
+  name: remote-noobaa-dc1
   namespace: noobaa
 spec:
   s3Compatible:
-    endpoint: https://10.2.0.219:443
+    endpoint: https://10.2.0.184:443
     secret:
       name: aws-s3-secret
       namespace: noobaa
-    targetBucket: anisur-dc2-38c7cdf2-eb49-435b-bfe5-854d9c72f300
+    targetBucket: anisur-dc1-2705f38c-e6f2-4c0a-b837-327ec057b26e
   type: s3-compatible
+
+

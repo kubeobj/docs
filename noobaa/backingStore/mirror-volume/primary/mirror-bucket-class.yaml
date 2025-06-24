@@ -1,12 +1,12 @@
 apiVersion: noobaa.io/v1alpha1
 kind: BucketClass
 metadata:
-  name: dr-mirror-bucket-class
+  name: mirror-bucket-class
   namespace: noobaa
 spec:
   placementPolicy:
     tiers:
       - backingStores:
-#          - local-pv-pool-dc1    # Primary copy on local PVs
-          - remote-noobaa-dc2    # Mirrored copy to the DR site
+          - remote-noobaa-dc1
+#          - remote-noobaa-dc2    # Mirrored copy to the DR site
         placement: Mirror

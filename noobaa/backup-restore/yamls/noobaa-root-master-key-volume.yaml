@@ -1,10 +1,10 @@
 apiVersion: v1
 data:
-  active_root_key: a2V5LTE3NTAwNTM5MDczOTc0NzQ2ODM=
-  key-1750053907397474683: emJUUGVzUEhLTnNkRk5pWmx4cjhNWVZ4YkF0eHkwelQwUk02SWMyOUwwTT0=
+  active_root_key: a2V5LTE3NTA3NDM1NzA0NjA1NDk0MDE=
+  key-1750743570460549401: dHRHa1pleWx1c2hnRm5MSkhvQndCVXp2OGhXNXpkaGRKS3YvV2NFOE81WT0=
 kind: Secret
 metadata:
-  creationTimestamp: "2025-06-16T08:56:09Z"
+  creationTimestamp: "2025-06-24T05:39:30Z"
   labels:
     app: noobaa
   name: noobaa-root-master-key-volume
@@ -15,7 +15,7 @@ metadata:
     controller: true
     kind: NooBaa
     name: noobaa
-    uid: 6d336cb9-2f47-4a04-b93c-01a5da58ae23
-  resourceVersion: "9576"
-  uid: d5438f68-fbbb-4307-88c8-fc8bb743748d
+    uid: 714731a3-5f5c-46ca-be9b-1696709d5240
+  resourceVersion: "707"
+  uid: 7841f7da-cc91-44fb-9144-b5717d32595c
 type: Opaque

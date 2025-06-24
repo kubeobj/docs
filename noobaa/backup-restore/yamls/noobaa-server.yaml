@@ -1,10 +1,10 @@
 apiVersion: v1
 data:
-  jwt: TmlDbDYxaTVjbDdhQkJnVm40eTBGQT09
-  server_secret: MGM2OWQxYjk=
+  jwt: OUY2VjJWN1drdnYzUWpBcm02bEJTQT09
+  server_secret: M2NmYTAyYTQ=
 kind: Secret
 metadata:
-  creationTimestamp: "2025-06-16T08:56:09Z"
+  creationTimestamp: "2025-06-24T05:39:30Z"
   labels:
     app: noobaa
   name: noobaa-server
@@ -15,7 +15,7 @@ metadata:
     controller: true
     kind: NooBaa
     name: noobaa
-    uid: 6d336cb9-2f47-4a04-b93c-01a5da58ae23
-  resourceVersion: "9574"
-  uid: 5c37e5a6-703c-42e4-a97a-0e34df17cd50
+    uid: 714731a3-5f5c-46ca-be9b-1696709d5240
+  resourceVersion: "704"
+  uid: 8b949ec9-8f03-4560-b4a7-52b3952ee91c
 type: Opaque

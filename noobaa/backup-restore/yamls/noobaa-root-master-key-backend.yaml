@@ -1,15 +1,12 @@
 apiVersion: v1
 data:
-  active_root_key: a2V5LTE3NTAwNTM5MDczOTc0NzQ2ODM=
-  key-1750053907397474683: emJUUGVzUEhLTnNkRk5pWmx4cjhNWVZ4YkF0eHkwelQwUk02SWMyOUwwTT0=
+  active_root_key: a2V5LTE3NTA3NDM1NzA0NjA1NDk0MDE=
+  key-1750743570460549401: dHRHa1pleWx1c2hnRm5MSkhvQndCVXp2OGhXNXpkaGRKS3YvV2NFOE81WT0=
 kind: Secret
 metadata:
-  annotations:
-    kubectl.kubernetes.io/last-applied-configuration: |
-      {"apiVersion":"v1","data":{"active_root_key":"a2V5LTE3NTAwNTM5MDczOTc0NzQ2ODM=","key-1750053907397474683":"emJUUGVzUEhLTnNkRk5pWmx4cjhNWVZ4YkF0eHkwelQwUk02SWMyOUwwTT0="},"kind":"Secret","metadata":{"annotations":{},"creationTimestamp":"2025-06-16T06:05:07Z","name":"noobaa-root-master-key-backend","namespace":"noobaa","resourceVersion":"2194","uid":"cad22a9e-ac3a-4908-aba2-d6f1b691b7c4"},"type":"Opaque"}
-  creationTimestamp: "2025-06-16T06:34:04Z"
+  creationTimestamp: "2025-06-24T05:39:30Z"
   name: noobaa-root-master-key-backend
   namespace: noobaa
-  resourceVersion: "3710"
-  uid: 8e0fd246-285b-4e83-b8d1-08d5cdafd40c
+  resourceVersion: "706"
+  uid: 2f7a5f82-1f5e-486b-a6f1-17809421843f
 type: Opaque

@@ -1,9 +1,9 @@
 apiVersion: v1
 data:
-  auth_token: ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmhZMk52ZFc1MFgybGtJam9pTmpnMFptUmpNMk5tTUdObU9ESXdNREkyTkRJeU9XTTRJaXdpYzNsemRHVnRYMmxrSWpvaU5qZzBabVJqTTJObU1HTm1PREl3TURJMk5ESXlPV001SWl3aWNtOXNaU0k2SW1Ga2JXbHVJaXdpWVhWMGFHOXlhWHBsWkY5aWVTSTZJbTV2YjJKaFlTSXNJbWxoZENJNk1UYzFNREEyTkRFNE9YMC53NWZBVzlGWGpPenZaVmE4NExyTXp4UzlvSEtjT3N5bmxqUE1jZm9BZmRz
+  auth_token: ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmhZMk52ZFc1MFgybGtJam9pTmpnMVlUTmhOV1kxTVdGbE1tSXdNREprTUdabE16VTFJaXdpYzNsemRHVnRYMmxrSWpvaU5qZzFZVE5oTldZMU1XRmxNbUl3TURKa01HWmxNelUySWl3aWNtOXNaU0k2SW1Ga2JXbHVJaXdpWVhWMGFHOXlhWHBsWkY5aWVTSTZJbTV2YjJKaFlTSXNJbWxoZENJNk1UYzFNRGMwTXpZME9IMC5RWGVfbF9mOGoyUTNGTFpyMVNqX3JvV1pXVWJGdDI2clJsTWRZM2RTcktN
 kind: Secret
 metadata:
-  creationTimestamp: "2025-06-16T08:56:29Z"
+  creationTimestamp: "2025-06-24T05:40:48Z"
   labels:
     app: noobaa
   name: noobaa-endpoints
@@ -14,7 +14,7 @@ metadata:
     controller: true
     kind: NooBaa
     name: noobaa
-    uid: 6d336cb9-2f47-4a04-b93c-01a5da58ae23
-  resourceVersion: "9713"
-  uid: 0ea4405c-30e6-44cd-b9bb-67660977e644
+    uid: 714731a3-5f5c-46ca-be9b-1696709d5240
+  resourceVersion: "909"
+  uid: 74ab96c5-bb8b-43ea-ae1b-56010159adda
 type: Opaque
