@@ -1,0 +1,12 @@
+apiVersion: noobaa.io/v1alpha1
+kind: NamespaceStore
+metadata:
+  name: azure-namespace-bs
+spec:
+  azureBlob:
+    secret:
+      name: azure-secret
+      namespace: noobaa
+    targetBlobContainer: namespace-noobaa
+  type: azure-blob
+
