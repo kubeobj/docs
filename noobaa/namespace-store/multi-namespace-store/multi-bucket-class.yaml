@@ -7,5 +7,5 @@ spec:
     type: Multi
     multi:
       readResources:
-      - gcs-namespace-bs
+      - azure-namespace-bs
       writeResource: s3-namespace-bs

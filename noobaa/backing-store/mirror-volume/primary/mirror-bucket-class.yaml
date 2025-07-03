@@ -7,6 +7,6 @@ spec:
   placementPolicy:
     tiers:
       - backingStores:
-          - remote-noobaa-dc1
-#          - remote-noobaa-dc2    # Mirrored copy to the DR site
+#          - remote-noobaa-dc1
+          - remote-noobaa-dc2    # Mirrored copy to the DR site
         placement: Mirror
