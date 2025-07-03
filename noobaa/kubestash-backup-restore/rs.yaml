@@ -1,0 +1,22 @@
+apiVersion: core.kubestash.com/v1alpha1
+kind: RestoreSession
+metadata:
+  name: cluster-restore
+  namespace: demo
+spec:
+  dataSource:
+    repository: kubedump-s3-repository
+    snapshot: latest
+    encryptionSecret:
+      name: encrypt-secret
+      namespace: demo
+  addon:
+    name: kubedump-addon
+    tasks:
+      - name: manifest-restore
+        params:
+          IncludeClusterResources: "true"
+          IncludeNamespaces: 'noobaa'
+    jobTemplate:
+      spec:
+        serviceAccountName: cluster-resource-reader-writter
