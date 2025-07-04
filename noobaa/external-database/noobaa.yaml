@@ -11,12 +11,12 @@ spec:
   cleanupPolicy: {}
   dbImage: quay.io/sclorg/postgresql-15-c9s
   dbType: postgres
-  externalPgSSLRequired: true
   externalPgSSLUnauthorized: true
   externalPgSecret:
     name: noobaa-external-pg-db
     namespace: noobaa
   image: noobaa/noobaa-core:master-20240520
   loadBalancerSourceSubnets: {}
+  manualDefaultBackingStore: true
   security:
     kms: {}
