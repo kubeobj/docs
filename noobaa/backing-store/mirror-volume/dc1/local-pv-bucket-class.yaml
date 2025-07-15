@@ -7,3 +7,5 @@ spec:
     tiers:
       - backingStores:
           - local-pv-pool-dc1
+          - local-pv-pool-dc2
+        placement: Mirror

@@ -21,7 +21,7 @@ spec:
               value: pgdb
           resources:
             requests:
-              memory: "8Gi"
+              memory: "6Gi"
               cpu: "800m"
   serviceTemplates:
     - alias: primary
