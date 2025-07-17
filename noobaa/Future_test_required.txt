@@ -2,4 +2,4 @@
     - It create bucket in default bucketclass.
     - what If default bucketclass is not available?
     - Can we provide manual bucketclass name while creating bucket?
-    - What's the recommended way to create bucket?
+    - What'fs the recommended way to create bucket?

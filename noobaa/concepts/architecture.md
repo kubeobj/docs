@@ -11,10 +11,10 @@ and spread placement policies, over any storage resource that allows GET/PUT inc
 - Scalability and Flexibility: NooBaa can start small (even as a single container) and scale up to handle petabytes.
 
 ### Architecture:
-![Screenshot from 2025-04-09 11-14-49.png](images/Screenshot%20from%202025-04-09%2011-14-49.png)
-![Screenshot from 2025-04-09 11-58-36.png](images/Screenshot%20from%202025-04-09%2011-58-36.png)
-![Screenshot from 2025-04-09 12-18-00.png](images/Screenshot%20from%202025-04-09%2012-18-00.png)
-![Screenshot from 2025-04-09 13-50-54.png](images/Screenshot%20from%202025-04-09%2013-50-54.png)
+![Screenshot from 2025-04-09 11-14-49.png](../images/Screenshot%20from%202025-04-09%2011-14-49.png)
+![Screenshot from 2025-04-09 11-58-36.png](../images/Screenshot%20from%202025-04-09%2011-58-36.png)
+![Screenshot from 2025-04-09 12-18-00.png](../images/Screenshot%20from%202025-04-09%2012-18-00.png)
+![Screenshot from 2025-04-09 13-50-54.png](../images/Screenshot%20from%202025-04-09%2013-50-54.png)
 
 ### Install:
 
