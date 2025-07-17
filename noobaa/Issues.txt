@@ -1,0 +1,14 @@
+1. Apply NooBaa CRD with the wrong secret name which not present in the cluster.
+ - Expected: Sectet Not found status in NooBaa Status field.
+2. Once the secret is created, It's not reconciling the NooBaa CRD.
+ - Expected: NooBaa CRD should be reconciled and status should be updated with the correct secret name.
+
+
+***********************
+
+- PVC name generate randomly, so, PVC doesn't compatible with the backing-store name.
+- Don't have any UI:
+   - https://github.com/noobaa/noobaa-core/issues/7485
+   - https://github.com/noobaa/noobaa-core/issues/6406
+
+

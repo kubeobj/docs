@@ -1,0 +1,5 @@
+1. What happened while creating a new bucket using noobaa cli?
+    - It create bucket in default bucketclass.
+    - what If default bucketclass is not available?
+    - Can we provide manual bucketclass name while creating bucket?
+    - What'fs the recommended way to create bucket?

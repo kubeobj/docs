@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+  labels:
+    app: my-app
+spec:
+  containers:
+    - name: app
+      envFrom:
+        - secretRef:
+            name: my-bucket-claim
+        - configMapRef:
+            name: my-bucket-claim
+      image: banst/awscli
+      command:
+        - sh
+        - "-c"
+        - |
+          echo "----> Configuring S3 endpoint ...";
+          pip install awscli-plugin-endpoint;
+          aws configure set plugins.endpoint awscli_plugin_endpoint;
+          aws configure set s3.endpoint_url https://s3.noobaa.svc.cluster.local;
+          echo "----> Configuring certificates ...";
+          sleep 50000000000;
+          aws configure set ca_bundle /var/run/secrets/kubernetes.io/serviceaccount/ca.crt;
+#          echo "----> Copying files ...";
+#          aws s3 cp --recursive /etc s3://$BUCKET_NAME;
+#          echo "----> List files ...";
+#          aws s3 ls $BUCKET_NAME;
+#          echo "----> Done.";

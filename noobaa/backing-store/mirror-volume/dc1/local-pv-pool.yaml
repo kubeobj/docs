@@ -15,5 +15,5 @@ spec:
         memory: 2Gi
         cpu: 1000m
     secret: {}
-    storageClass: local-path
+#    storageClass: local-path
   type: pv-pool
