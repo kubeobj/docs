@@ -1,0 +1,1 @@
+https://github.com/noobaa/noobaa-core/blob/master/docs/design/BucketReplication.md

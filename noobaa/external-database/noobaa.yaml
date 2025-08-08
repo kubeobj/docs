@@ -9,7 +9,7 @@ spec:
   bucketNotifications:
     enabled: false
   cleanupPolicy: {}
-  dbImage: quay.io/sclorg/postgresql-15-c9s
+#  dbImage: quay.io/sclorg/postgresql-15-c9s
   dbType: postgres
   externalPgSSLUnauthorized: true
   externalPgSecret:
