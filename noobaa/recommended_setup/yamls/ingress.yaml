@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: noobaa-ingress
+  namespace: noobaa
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-body-size: "0"  # 0 means unlimited
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - anisur.s3          # must match spec.rules[*].host
+      secretName: ingress-s3-serving-cert           # the Secret we just created
+  rules:
+    - host: anisur.s3
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: s3
+                port:
+                  number: 80

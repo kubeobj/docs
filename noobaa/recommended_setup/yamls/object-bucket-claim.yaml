@@ -1,10 +1,9 @@
 apiVersion: objectbucket.io/v1alpha1
 kind: ObjectBucketClaim
 metadata:
-  name: my-bucket-claim
+  name: mirror-obc
 spec:
-  generateBucketName: my-bucket
+  generateBucketName: mirror-bucket
   storageClassName: noobaa.noobaa.io
   additionalConfig:
-    bucketclass: noobaa-default-bucket-class
----
+    bucketclass: mirror-bucket-class
