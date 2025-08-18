@@ -1,0 +1,9 @@
+apiVersion: objectbucket.io/v1alpha1
+kind: ObjectBucketClaim
+metadata:
+  name: single-namespace-obc
+spec:
+  generateBucketName: anisur
+  storageClassName: noobaa.noobaa.io
+  additionalConfig:
+    bucketclass: single-namespace-bc
