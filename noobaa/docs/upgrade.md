@@ -1,0 +1,1 @@
+https://github.com/noobaa/noobaa-operator/issues/171#issuecomment-847759757

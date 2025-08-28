@@ -1,6 +1,9 @@
 apiVersion: noobaa.io/v1alpha1
 kind: NooBaa
 metadata:
+  creationTimestamp: null
+  finalizers:
+    - noobaa.io/graceful_finalizer
   name: noobaa
   namespace: noobaa
 spec:
@@ -9,15 +12,14 @@ spec:
   bucketNotifications:
     enabled: false
   cleanupPolicy: {}
-#  dbImage: quay.io/sclorg/postgresql-15-c9s
+  dbImage: quay.io/sclorg/postgresql-16-c9s
   dbType: postgres
-  externalPgSSLUnauthorized: true
-  externalPgSecret:
-    name: noobaa-external-pg-db
-    namespace: noobaa
-  image: noobaa/noobaa-core:master-20240520
+  dbVolumeResources:
+    requests:
+      storage: 10G
+  image: noobaa/noobaa-core:master-20250521
   loadBalancerSourceSubnets: {}
-  manualDefaultBackingStore: true
   security:
     kms: {}
-
+status:
+  lastKeyRotateTime: null
