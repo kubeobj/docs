@@ -1,0 +1,12 @@
+apiVersion: noobaa.io/v1alpha1
+kind: NamespaceStore
+metadata:
+  name: s3-namespace-bs
+spec:
+  awsS3:
+    region: us-east-1
+    secret:
+      name: aws-s3-secret
+      namespace: noobaa
+    targetBucket: namespace-noobaa
+  type: aws-s3
