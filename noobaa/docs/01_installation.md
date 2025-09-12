@@ -10,7 +10,7 @@ We need three operators:
 ### Install NooBaa Operator
 NooBaa operator can only install using the `NooBaa` CLI. Download your desired file, extract the binary and place it in your PATH. https://github.com/noobaa/noobaa-operator/releases/tag/v5.18.1
 ```bash
-$ noobaa operator install
+$ noobaa operator install --operator-image=ghcr.io/kubeobj/noobaa-operator:<release-version>
 $ noobaa crd create
 ````
 Here,
@@ -135,7 +135,8 @@ The NooBaa CLI provides a quick and straightforward way to deploy NooBaa.
 $ noobaa install \
   --disable-load-balancer=true \
   --postgres-url='<db-url>' \
-  --manual-default-backingstore=true
+  --manual-default-backingstore=true \
+  --noobaa-image=ghcr.io/kubeobj/noobaa-core:<release-version>
 ```
 
 Here,
