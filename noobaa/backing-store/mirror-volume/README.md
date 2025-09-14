@@ -54,7 +54,7 @@ kubectl get secret noobaa-admin -n noobaa -o json | jq -r '.data.AWS_SECRET_ACCE
 ### Setup in Primary DC
 
 ```bash
-## Apply Secret for dc1 with the secret key and access key of dc1
+## Apply Secret for dc1 with the secret key and access kefishy of dc1
 kubectl create secret generic noobaa-aws-s3-secret-dc1 \
     --from-literal=AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID> \
     --from-literal=AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY> -n noobaa
