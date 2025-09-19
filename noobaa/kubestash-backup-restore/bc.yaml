@@ -22,7 +22,7 @@ spec:
       repositories:
         - name: kubedump-s3-repository
           backend: s3-backend
-          directory: /cluster-manifests
+          directory: /noobaa-backup
           encryptionSecret:
             name: encrypt-secret
             namespace: demo

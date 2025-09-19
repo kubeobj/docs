@@ -11,3 +11,21 @@
    
 
 ### Workaround for Noobaa Backup/Restore
+
+```bash
+kubectl create secret generic noobaa-external-pg-db \
+              --namespace=noobaa \
+              --from-literal=db_url='postgres://postgres:Lg73qGD.YMVB838F@10.2.0.81:5432/nbcore'
+```
+
+```bash 
+# IN cluster where the postgres is running
+kubectl exec -it pod/nbcore-postgres-0 -- pg_dump nbcore -f /tmp/test.db -F custom
+kubectl cp nbcore-postgres-0:/tmp/test.db ./mcg_new.bck
+
+
+kubectl exec -it nbcore-postgres-0 -- pg_restore -d nbcore /tmp/test.db -c
+
+kubectl exec -it nbcore-postgres-0 -- \
+  psql -d nbcore -c "DROP TABLE IF EXISTS public.nodes;"
+```
