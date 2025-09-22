@@ -50,18 +50,18 @@ jobs:
           chmod +x hugo-tools
           sudo mv hugo-tools /usr/local/bin/hugo-tools
 
-#      - name: Clone website repository
-#        env:
-#          GITHUB_USER: 1gtm
-#          GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
-#          WEBSITE_REPOSITORY: ${{ secrets.WEBSITE_REPOSITORY }}
-#        run: |
-#          url="https://${GITHUB_USER}:${GITHUB_TOKEN}@${WEBSITE_REPOSITORY}.git"
-#          cd $RUNNER_WORKSPACE
-#          git clone --recurse-submodules $url
-#          cd $(basename $WEBSITE_REPOSITORY)
-#          git config user.name "${GITHUB_USER}"
-#          git config user.email "${GITHUB_USER}@appscode.com"
+      - name: Clone website repository
+        env:
+          GITHUB_USER: 1gtm
+          GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
+          WEBSITE_REPOSITORY: ${{ secrets.WEBSITE_REPOSITORY }}
+        run: |
+          url="https://${GITHUB_USER}:${GITHUB_TOKEN}@${WEBSITE_REPOSITORY}.git"
+          cd $RUNNER_WORKSPACE
+          git clone --recurse-submodules $url
+          cd $(basename $WEBSITE_REPOSITORY)
+          git config user.name "${GITHUB_USER}"
+          git config user.email "${GITHUB_USER}@appscode.com"
 
       - name: Update docs
         env:
@@ -70,8 +70,8 @@ jobs:
           WEBSITE_REPOSITORY: ${{ secrets.WEBSITE_REPOSITORY }}
         run: |
           set -x
-#          export WEBSITE_ROOT=$RUNNER_WORKSPACE/$(basename $WEBSITE_REPOSITORY)
-#          cd $WEBSITE_ROOT
+          export WEBSITE_ROOT=$RUNNER_WORKSPACE/$(basename $WEBSITE_REPOSITORY)
+          cd $WEBSITE_ROOT
           npm install
           make assets
           if [ "${{ github.event_name }}" == "pull_request" ]; then
