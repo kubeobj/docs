@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-install
+    name: Index
+    parent: install-setup
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: setup
+---
+
 # Installation Guide
 This guide sets up **NooBaa** with **PostgreSQL (via KubeDB)** and **backup support (via KubeStash)**. You must complete this installation before exploring any NooBaa features.
 

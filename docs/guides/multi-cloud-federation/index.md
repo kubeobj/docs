@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-multi-cloud-federation
+    name: Index
+    parent: multi-cloud-federation-guides
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: guides
+---
+
 # Multi Hybrid Cloud Data Federation
 
 ## Overview

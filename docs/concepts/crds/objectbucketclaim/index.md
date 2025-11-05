@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-objectbucketclaim
+    name: Index
+    parent: objectbucketclaim-crds
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: concepts
+---
+
 # ObjectBucketClaim
 
 ## What is ObjectBucketClaim

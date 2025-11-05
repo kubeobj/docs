@@ -1,3 +1,15 @@
+---
+title: Readme
+menu:
+  docs_{{ .version }}:
+    identifier: readme-concepts
+    name: Readme
+    parent: concepts-docs
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: concepts
+---
+
 # Concepts
 Concepts help you to learn about the different parts of the NooBaa and the abstractions it uses.
 

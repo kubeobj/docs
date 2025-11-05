@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-namespacestore
+    name: Index
+    parent: namespacestore-crds
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: concepts
+---
+
 # NamespaceStore
 
 ## What is NamespaceStore

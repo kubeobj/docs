@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-data-replication-policy
+    name: Index
+    parent: data-replication-policy-guides
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: guides
+---
+
 # Bucket Data Replication
 
 NooBaa supports data replication policies to asynchronously replicate data from a source bucket to one or more destination buckets. This is essential for disaster recovery and high availability, ensuring your data is protected across multiple locations.

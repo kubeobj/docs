@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-unified-data-access
+    name: Index
+    parent: unified-data-access-guides
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: guides
+---
+
 # Unified Data Access with NooBaa
 
 NooBaa provides unified data access by allowing you to connect to various storage resources, whether they are in the cloud or on-premises, and manage them through a single S3-compatible endpoint. This is primarily achieved using **Namespace Stores**.

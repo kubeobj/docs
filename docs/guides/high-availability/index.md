@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-high-availability
+    name: Index
+    parent: high-availability-guides
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: guides
+---
+
 # High Availability in NooBaa
 
 High Availability (HA) is critical for any production storage system. A highly available NooBaa deployment ensures that your data services remain online and accessible even if individual components or nodes fail. This is achieved through redundancy at multiple levels: core services, metadata database, and data placement.

@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-overview
+    name: Index
+    parent: overview-what-is-noobaa
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: concepts
+---
+
 # NooBaa
 
 [NooBaa]() is an open-source, cloud-native data management and object storage platform. It enables unified data access, multi-cloud federation, and seamless scalability by abstracting underlying storage resources. NooBaa helps organizations manage, migrate, and protect data across on-premises and cloud environments efficiently.
