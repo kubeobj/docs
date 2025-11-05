@@ -1,3 +1,20 @@
+---
+title: Welcome | KubeObj
+description: Welcome to KubeObj
+menu:
+  docs_{{ .version }}:
+    identifier: readme-kubeobj
+    name: Readme
+    parent: welcome
+    weight: -1
+menu_name: docs_{{ .version }}
+section_menu_id: welcome
+url: /docs/{{ .version }}/welcome/
+aliases:
+  - /docs/{{ .version }}/
+  - /docs/{{ .version }}/README/
+---
+
 # NooBaa
 
 [NooBaa]() is an open-source, cloud-native data management and object storage platform. It enables unified data access, multi-cloud federation, and seamless scalability by abstracting underlying storage resources. NooBaa helps organizations manage, migrate, and protect data across on-premises and cloud environments efficiently.
