@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-cloud-native-operation
+    name: Index
+    parent: cloud-native-operation-guides
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: guides
+---
+
 # Cloud-Native S3 Operations with NooBaa
 
 NooBaa is designed to provide a cloud-native experience for object storage management within a Kubernetes environment. It leverages Kubernetes Custom Resource Definitions (CRDs) to allow developers and administrators to manage `S3-compatible buckets` declaratively, just like any other Kubernetes resource.

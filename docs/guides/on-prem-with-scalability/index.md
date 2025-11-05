@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-on-prem-with-scalability
+    name: Index
+    parent: on-prem-with-scalability-guides
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: guides
+---
+
 # On-Premises S3 Object Storage with Scalability
 
 ## Overview

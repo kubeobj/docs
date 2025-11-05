@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-objectbucket
+    name: Index
+    parent: objectbucket-crds
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: concepts
+---
+
 # ObjectBucket
 
 ## What is ObjectBucket

@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-monitoring
+    name: Index
+    parent: monitoring-guides
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: guides
+---
+
 # Monitoring
 
 This guide explains how to monitor the NooBaa operator and related components using Prometheus and Grafana. It covers recommended setup, how to expose metrics, example ServiceMonitor manifests, basic alerting rules and troubleshooting steps.

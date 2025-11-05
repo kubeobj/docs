@@ -1,3 +1,15 @@
+---
+title: Index
+menu:
+  docs_{{ .version }}:
+    identifier: index-noobaa
+    name: Index
+    parent: noobaa-crds
+    weight: 1
+menu_name: docs_{{ .version }}
+section_menu_id: concepts
+---
+
 # NooBaa
 
 ## What is NooBaa
