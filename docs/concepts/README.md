@@ -4,10 +4,13 @@ menu:
   docs_{{ .version }}:
     identifier: readme-concepts
     name: Readme
-    parent: concepts-docs
+    parent: concepts
     weight: 1
 menu_name: docs_{{ .version }}
 section_menu_id: concepts
+url: /docs/{{ .version }}/concepts/
+aliases:
+- /docs/{{ .version }}/concepts/README/
 ---
 
 # Concepts

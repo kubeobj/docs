@@ -4,7 +4,7 @@ menu:
   docs_{{ .version }}:
     identifier: dashboard-monitoring
     name: Dashboard
-    parent: monitoring-guides
+    parent: index-monitoring
     weight: 1
 menu_name: docs_{{ .version }}
 ---

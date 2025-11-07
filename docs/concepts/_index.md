@@ -2,9 +2,9 @@
 title: Concepts
 menu:
   docs_{{ .version }}:
-    identifier: concepts-docs
+    identifier: concepts
     name: Concepts
-    weight: 1
+    weight: 2
 menu_name: docs_{{ .version }}
 ---
 

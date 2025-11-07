@@ -1,10 +1,10 @@
 ---
-title: Index
+title: On-Prem with scalability
 menu:
   docs_{{ .version }}:
     identifier: index-on-prem-with-scalability
-    name: Index
-    parent: on-prem-with-scalability-guides
+    name: On-Prem with scalability
+    parent: guides
     weight: 1
 menu_name: docs_{{ .version }}
 section_menu_id: guides

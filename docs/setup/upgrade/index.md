@@ -1,10 +1,10 @@
 ---
-title: Index
+title: Upgrade
 menu:
   docs_{{ .version }}:
     identifier: index-upgrade
-    name: Index
-    parent: upgrade-setup
+    name: Upgrade
+    parent: setup-docs
     weight: 1
 menu_name: docs_{{ .version }}
 section_menu_id: setup

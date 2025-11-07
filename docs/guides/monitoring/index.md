@@ -1,10 +1,10 @@
 ---
-title: Index
+title: Monitoring
 menu:
   docs_{{ .version }}:
     identifier: index-monitoring
-    name: Index
-    parent: monitoring-guides
+    name: Monitoring
+    parent: guides
     weight: 1
 menu_name: docs_{{ .version }}
 section_menu_id: guides
