@@ -1,10 +1,10 @@
 ---
-title: Index
+title: NooBaa
 menu:
   docs_{{ .version }}:
     identifier: index-overview
-    name: Index
-    parent: overview-what-is-noobaa
+    name: NooBaa
+    parent: what-is-noobaa-concepts
     weight: 1
 menu_name: docs_{{ .version }}
 section_menu_id: concepts

@@ -1,10 +1,10 @@
 ---
-title: Index
+title: Unified Data Access
 menu:
   docs_{{ .version }}:
     identifier: index-unified-data-access
-    name: Index
-    parent: unified-data-access-guides
+    name: Unified Data Access
+    parent: guides
     weight: 1
 menu_name: docs_{{ .version }}
 section_menu_id: guides

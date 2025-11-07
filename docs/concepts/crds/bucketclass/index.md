@@ -1,11 +1,11 @@
 ---
-title: Index
+title: BucketClass
 menu:
   docs_{{ .version }}:
     identifier: index-bucketclass
-    name: Index
-    parent: bucketclass-crds
-    weight: 1
+    name: BucketClass
+    parent: crds
+    weight: 2
 menu_name: docs_{{ .version }}
 section_menu_id: concepts
 ---

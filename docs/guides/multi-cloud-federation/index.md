@@ -1,10 +1,10 @@
 ---
-title: Index
+title: Multi Cloud Federation
 menu:
   docs_{{ .version }}:
     identifier: index-multi-cloud-federation
-    name: Index
-    parent: multi-cloud-federation-guides
+    name: Multi Cloud Federation
+    parent: guides
     weight: 1
 menu_name: docs_{{ .version }}
 section_menu_id: guides

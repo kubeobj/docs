@@ -1,10 +1,10 @@
 ---
-title: Index
+title: BackingStore
 menu:
   docs_{{ .version }}:
     identifier: index-backingstore
-    name: Index
-    parent: backingstore-crds
+    name: BackingStore
+    parent: crds
     weight: 1
 menu_name: docs_{{ .version }}
 section_menu_id: concepts

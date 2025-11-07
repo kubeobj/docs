@@ -1,10 +1,10 @@
 ---
-title: Index
+title: High Availability
 menu:
   docs_{{ .version }}:
     identifier: index-high-availability
-    name: Index
-    parent: high-availability-guides
+    name: High Availability
+    parent: guides
     weight: 1
 menu_name: docs_{{ .version }}
 section_menu_id: guides

@@ -2,10 +2,10 @@
 title: Crds
 menu:
   docs_{{ .version }}:
-    identifier: crds-concepts
+    identifier: crds
     name: Crds
-    parent: concepts-docs
-    weight: 1
+    parent: concepts
+    weight: 15
 menu_name: docs_{{ .version }}
 ---
 
