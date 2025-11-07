@@ -1,11 +1,15 @@
 ---
 title: Crds
 menu:
-  docs_{{ .version }}:
-    identifier: crds-concepts
+  docs_v2025.10.31:
+    identifier: crds
     name: Crds
-    parent: concepts-docs
-    weight: 1
-menu_name: docs_{{ .version }}
+    parent: concepts
+    weight: 15
+menu_name: docs_v2025.10.31
+info:
+  cli: v0.20.0
+  installer: v2025.10.31
+  version: v2025.10.31
 ---
 

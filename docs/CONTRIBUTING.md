@@ -2,16 +2,20 @@
 title: Contributing | KubeObj
 description: Contributing
 menu:
-  docs_{{ .version }}:
+  docs_v2025.10.31:
     identifier: contributing-kubeobj
     name: Contributing
     parent: welcome
     weight: 10
-menu_name: docs_{{ .version }}
+menu_name: docs_v2025.10.31
 section_menu_id: welcome
-url: /docs/{{ .version }}/welcome/contributing/
+url: /docs/v2025.10.31/welcome/contributing/
 aliases:
-  - /docs/{{ .version }}/CONTRIBUTING/
+- /docs/v2025.10.31/CONTRIBUTING/
+info:
+  cli: v0.20.0
+  installer: v2025.10.31
+  version: v2025.10.31
 ---
 
 # Contribution Guidelines

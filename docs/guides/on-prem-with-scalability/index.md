@@ -1,13 +1,17 @@
 ---
-title: Index
+title: On-Prem with scalability
 menu:
-  docs_{{ .version }}:
+  docs_v2025.10.31:
     identifier: index-on-prem-with-scalability
-    name: Index
-    parent: on-prem-with-scalability-guides
+    name: On-Prem with scalability
+    parent: guides
     weight: 1
-menu_name: docs_{{ .version }}
+menu_name: docs_v2025.10.31
 section_menu_id: guides
+info:
+  cli: v0.20.0
+  installer: v2025.10.31
+  version: v2025.10.31
 ---
 
 # On-Premises S3 Object Storage with Scalability

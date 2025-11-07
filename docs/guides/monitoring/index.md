@@ -1,13 +1,17 @@
 ---
-title: Index
+title: Monitoring
 menu:
-  docs_{{ .version }}:
+  docs_v2025.10.31:
     identifier: index-monitoring
-    name: Index
-    parent: monitoring-guides
+    name: Monitoring
+    parent: guides
     weight: 1
-menu_name: docs_{{ .version }}
+menu_name: docs_v2025.10.31
 section_menu_id: guides
+info:
+  cli: v0.20.0
+  installer: v2025.10.31
+  version: v2025.10.31
 ---
 
 # Monitoring
@@ -672,12 +676,12 @@ Forwarding from 127.0.0.1:3000 -> 3000
 Forwarding from [::1]:3000 -> 3000
 ```
 
-Now, go to [http://localhost:3000](http://localhost:3000/) in your browser and login to your Grafana UI. If you followed the [Prometheus Operator](/docs/guides/monitoring/prom-operator/index.md) guide to deploy your Prometheus stack, then the default username and password should be `admin`, and `prom-operator` respectively.
+Now, go to [http://localhost:3000](http://localhost:3000/) in your browser and login to your Grafana UI. If you followed the [Prometheus Operator](/docs/v2025.10.31/guides/monitoring/prom-operator/) guide to deploy your Prometheus stack, then the default username and password should be `admin`, and `prom-operator` respectively.
 
 Then, on the Grafana UI, click the `+` icon from the left sidebar and then click on `Import` button as below,
 
 <figure align="center">
-  <img alt="Import NooBaa Grafana Dashboard: Step 1" src="/docs/guides/monitoring/images/import_dashboard_1.png">
+  <img alt="Import NooBaa Grafana Dashboard: Step 1" src="/docs/v2025.10.31/guides/monitoring/images/import_dashboard_1.png">
 <figcaption align="center">Fig: Import NooBaa Grafana Dashboard (Step 1)</figcaption>
 </figure>
 
@@ -685,14 +689,14 @@ Then, on the Grafana UI, click the `+` icon from the left sidebar and then click
 Then, on the import UI, you can either upload the `noobaa_dashboard.json` file by clicking the `Upload JSON file` button or you can paste the content of the JSON file in the text area labeled as `Import via panel json`.
 
 <figure align="center">
-  <img alt="Import NooBaa Grafana Dashboard: Step 2" src="/docs/guides/monitoring/images/import_dashboard_2.png">
+  <img alt="Import NooBaa Grafana Dashboard: Step 2" src="/docs/v2025.10.31/guides/monitoring/images/import_dashboard_2.png">
 <figcaption align="center">Fig: Import NooBaa Grafana Dashboard (Step 2)</figcaption>
 </figure>
 
 If you followed the instruction properly, you should see the NooBaa Grafana dashboard in your Grafana UI.
 
 <figure align="center">
-  <img alt="NooBaa Grafana Dashboard" src="/docs/guides/monitoring/images/grafana_dashboard.png">
+  <img alt="NooBaa Grafana Dashboard" src="/docs/v2025.10.31/guides/monitoring/images/grafana_dashboard.png">
 <figcaption align="center">Fig: NooBaa Grafana Dashboard</figcaption>
 </figure>
 

@@ -2,16 +2,20 @@
 title: Support | KubeObj
 description: Support
 menu:
-  docs_{{ .version }}:
+  docs_v2025.10.31:
     identifier: support-kubeobj
     name: Support
     parent: welcome
     weight: 25
-menu_name: docs_{{ .version }}
+menu_name: docs_v2025.10.31
 section_menu_id: welcome
-url: /docs/{{ .version }}/welcome/support/
+url: /docs/v2025.10.31/welcome/support/
 aliases:
-  - /docs/{{ .version }}/support/
+- /docs/v2025.10.31/support/
+info:
+  cli: v0.20.0
+  installer: v2025.10.31
+  version: v2025.10.31
 ---
 
 # Support

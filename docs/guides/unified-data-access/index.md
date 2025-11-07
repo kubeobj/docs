@@ -1,13 +1,17 @@
 ---
-title: Index
+title: Unified Data Access
 menu:
-  docs_{{ .version }}:
+  docs_v2025.10.31:
     identifier: index-unified-data-access
-    name: Index
-    parent: unified-data-access-guides
+    name: Unified Data Access
+    parent: guides
     weight: 1
-menu_name: docs_{{ .version }}
+menu_name: docs_v2025.10.31
 section_menu_id: guides
+info:
+  cli: v0.20.0
+  installer: v2025.10.31
+  version: v2025.10.31
 ---
 
 # Unified Data Access with NooBaa

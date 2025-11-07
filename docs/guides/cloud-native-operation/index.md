@@ -1,13 +1,17 @@
 ---
-title: Index
+title: Cloud Native Operation
 menu:
-  docs_{{ .version }}:
+  docs_v2025.10.31:
     identifier: index-cloud-native-operation
-    name: Index
-    parent: cloud-native-operation-guides
+    name: Cloud Native Operation
+    parent: guides
     weight: 1
-menu_name: docs_{{ .version }}
+menu_name: docs_v2025.10.31
 section_menu_id: guides
+info:
+  cli: v0.20.0
+  installer: v2025.10.31
+  version: v2025.10.31
 ---
 
 # Cloud-Native S3 Operations with NooBaa

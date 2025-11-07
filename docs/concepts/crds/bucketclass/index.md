@@ -1,13 +1,17 @@
 ---
-title: Index
+title: BucketClass
 menu:
-  docs_{{ .version }}:
+  docs_v2025.10.31:
     identifier: index-bucketclass
-    name: Index
-    parent: bucketclass-crds
-    weight: 1
-menu_name: docs_{{ .version }}
+    name: BucketClass
+    parent: crds
+    weight: 2
+menu_name: docs_v2025.10.31
 section_menu_id: concepts
+info:
+  cli: v0.20.0
+  installer: v2025.10.31
+  version: v2025.10.31
 ---
 
 # BucketClass
