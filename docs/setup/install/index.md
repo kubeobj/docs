@@ -7,7 +7,7 @@ menu:
     parent: setup-docs
     weight: 1
 menu_name: docs_{{ .version }}
-section_menu_id: setup
+section_menu_id: setup-docs
 ---
 
 # Installation Guide

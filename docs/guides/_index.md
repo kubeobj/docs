@@ -2,9 +2,9 @@
 title: Guides
 menu:
   docs_{{ .version }}:
-    identifier: guides-docs
+    identifier: guides
     name: Guides
-    weight: 1
+    weight: 4
 menu_name: docs_{{ .version }}
 url: /docs/{{ .version }}/guides/
 aliases:

@@ -4,7 +4,7 @@ menu:
   docs_{{ .version }}:
     identifier: setup-docs
     name: Setup
-    weight: 1
+    weight: 3
 menu_name: docs_{{ .version }}
 ---
 
